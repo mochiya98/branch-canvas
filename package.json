@@ -4,10 +4,10 @@
   "description": "draw commit-tree",
   "main": "branchCanva.js",
   "scripts": {
-	 "test": "echo \"Error: no test specified\" && exit 1",
-	 "lint": "eslint --fix branchCanvas.js",
-	 "min": "uglifyjs branchCanvas.js --compress --mangle -o branchCanvas.min.js",
-	 "build": "npm run lint && npm run min"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --fix branchCanvas.js",
+    "min": "uglifyjs branchCanvas.js --compress --mangle -o branchCanvas.min.js",
+    "build": "npm run lint && npm run min"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,7 @@
   "homepage": "https://github.com/mochiya98/branch-canvas#readme",
   "private": true,
   "devDependencies": {
-    "eslint": "^5.0.0",
+    "eslint": "^5.15.1",
     "uglify-es": "^3.3.9"
   },
   "dependencies": {}
